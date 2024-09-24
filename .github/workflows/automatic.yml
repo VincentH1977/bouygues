@@ -39,7 +39,7 @@ jobs:
           pwd
  
       - name: Upload artifact
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v3
         with:
           name: output-csv
           path: Bouygues-Bench-*.csv  # Utilisez un joker pour matcher tous les fichiers générés
