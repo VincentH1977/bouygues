@@ -2,7 +2,7 @@ name: Run Colab Notebook
  
 on:
   schedule:
-    - cron: '0 6 * * mon,tue,wed,thu,fri'  # Exécute tous les jours à 6 heures UTC (8 heures en France en été)
+    - cron: '0 6 * * thu'  # Exécute tous les jours à 6 heures UTC (8 heures en France en été)
   workflow_dispatch: # Permet de lancer manuellement le workflow
  
 jobs:
